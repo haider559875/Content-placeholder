@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Content Placeholder</title>
+</head>
+<body>
+  <div class="card">
+    <div class="card-header animated-bg" id="header">
+      <img src="https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wfGVufDB8fDB8fHww" alt="">
+    </div>
+    <div class="card-contant">
+      <h3 class="card-titile animated-bg animated-bg-text" id="title">Lorem ipsum dolor sit amet.</h3>
+      <p class="card-excerpt" id="excerpt">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, fugiat!
+        <span class="animated-bg animated-bg-text">&nbsp;</span>
+        <span class="animated-bg animated-bg-text">&nbsp;</span>
+        <span class="animated-bg animated-bg-text">&nbsp;</span>
+      </p>
+      <div class="author">
+        <div class="profile-img animated-bg" id="profile_img">
+          <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+        <div class="author-info">
+          <strong class="animated-bg animated-bg-text" id="name">Raza</strong>
+          <small class="animated-bg animated-bg-text" id="date">May 07,2025</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="logic.js"></script>
+</html>
